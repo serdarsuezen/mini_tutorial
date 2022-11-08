@@ -14,6 +14,14 @@ ROW SEPARATOR = 'LF'
 SKIP = 1
 ;
 
+IMPORT INTO SRC_RETAIL.PROD_CLASS FROM CSV 
+AT 'https://github.com/serdarsuezen/mini_tutorial/raw/main/source_data/'
+FILE 'prod_class.csv'
+COLUMN SEPARATOR = ';'
+ROW SEPARATOR = 'LF'
+SKIP = 1
+;
+
 IMPORT INTO SRC_RETAIL.PROD_CATEGORY FROM CSV 
 AT 'https://github.com/serdarsuezen/mini_tutorial/raw/main/source_data/'
 FILE 'prod_category.csv'
