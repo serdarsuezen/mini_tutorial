@@ -1,48 +1,48 @@
 
 IMPORT INTO SRC_RETAIL.CASH_POINT FROM LOCAL CSV 
-FILE '<local path>/cash_point.csv'
+FILE '<local path>/cash_point.zip'
 COLUMN SEPARATOR = ';'
 ROW SEPARATOR = 'LF'
 SKIP = 1
 ;
 
 IMPORT INTO SRC_RETAIL.PRODUCT FROM LOCAL CSV 
-FILE '<local path>/product.csv'
+FILE '<local path>/product.zip'
 COLUMN SEPARATOR = ';'
 ROW SEPARATOR = 'LF'
 SKIP = 1
 ;
 
 IMPORT INTO SRC_RETAIL.PROD_CLASS FROM LOCAL CSV 
-FILE '<local path>/prod_class.csv'
+FILE '<local path>/prod_class.zip'
 COLUMN SEPARATOR = ';'
 ROW SEPARATOR = 'LF'
 SKIP = 1
 ;
 
 IMPORT INTO SRC_RETAIL.PROD_CATEGORY FROM LOCAL CSV 
-FILE '<local path>/prod_category.csv'
+FILE '<local path>/prod_category.zip'
 COLUMN SEPARATOR = ';'
 ROW SEPARATOR = 'LF'
 SKIP = 1
 ;
 
 IMPORT INTO SRC_RETAIL.PROD_GROUP FROM LOCAL CSV 
-FILE '<local path>/prod_group.csv'
+FILE '<local path>/prod_group.zip'
 COLUMN SEPARATOR = ';'
 ROW SEPARATOR = 'LF'
 SKIP = 1
 ;
 
 IMPORT INTO SRC_RETAIL.SALE FROM LOCAL CSV 
-FILE '<local path>/sale.csv'
+FILE '<local path>/sale.zip'
 COLUMN SEPARATOR = ';'
 ROW SEPARATOR = 'LF'
 SKIP = 1
 ;
 
 IMPORT INTO SRC_RETAIL.STORE FROM LOCAL CSV 
-FILE '<local path>/store.csv'
+FILE '<local path>/store.zip'
 COLUMN SEPARATOR = ';'
 ROW SEPARATOR = 'LF'
 SKIP = 1
