@@ -40,8 +40,9 @@ grant select on dmv to yotilla_consumer_role;
 
 /*
 sources on target need additional grants on the schema.
+in our example SRC_RETAIL
 */
-grant select on <source_system_schema> to yotilla_user_role;
+grant select on SRC_RETAIL to yotilla_user_role;
 
 /*
 create user that shall be used while defining the target system in Yotilla.
